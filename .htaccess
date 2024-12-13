@@ -1,3 +1,0 @@
-Options +Includes
-Options +FollowSymLinks
-AddHandler server-parsed .htm .html
