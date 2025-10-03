@@ -51,7 +51,7 @@ h1, h2 ,h3, h4, h5, h6{color:rgba(0, 0, 120, 0.9)} /*rgba(250,23,15,1) !importan
   /*margin-left: 5%;*/
   width:100%;
   /*max-width: 95%;*/
-  min-width: 400px;
+  min-width: 350px;
 }
 
 .menuIcon {
@@ -114,7 +114,7 @@ footer {
   margin-top: 50px;
   width:100%;
   max-width: 900px;
-  min-width: 400px;
+  min-width: 3500px;
   height:auto;
   /*padding: 15px 16px;*/
   display: flex;
@@ -185,4 +185,5 @@ footer {
     text-align: left;
   }
 }
+
 
