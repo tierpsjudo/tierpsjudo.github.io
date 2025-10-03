@@ -24,9 +24,14 @@ html{background:white}
 body{color:#000000;font-family:Helvetica;}
 h1, h2 ,h3, h4, h5, h6{color:rgba(0, 0, 120, 0.9)} /*rgba(250,23,15,1) !important} */ /* #e71717 */ 
 
+.passH3 {
+	font-size:1.17em;
+	margin-top:1.5em;
+	margin-bottom:0.5em;
+}
 .content {
   /*margin: auto;*/
-  width:100%;
+  width:97%;
   max-width: 900px;
   min-width: 350px;
   /*border: 3px solid #73AD21;*/
@@ -49,8 +54,8 @@ h1, h2 ,h3, h4, h5, h6{color:rgba(0, 0, 120, 0.9)} /*rgba(250,23,15,1) !importan
 	 color: white;
   overflow: hidden;
   /*margin-left: 5%;*/
-  width:100%;
-  /*max-width: 95%;*/
+  width:97%;
+  /*max-width: 97%;*/
   min-width: 350px;
 }
 
@@ -92,10 +97,30 @@ p.lankar{
 line-height: 1.8;
 }
 
+ul.omklubben{
+line-height: 1.8;
+}
+
+.kontakt-wrapper {
+	  /*margin: auto;*/
+  width:97%;
+  max-width: 900px;
+  min-width: 350px;
+  height: 100%;
+  /*border: 3px solid #73AD21;*/
+  padding: 0px;
+  margin-left: 5%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display:flex;
+  justify-content:center;
+}
+
 .kontakt {
   padding: 20px;
   float: left;
-  width: 50%; /* The width is 20%, by default */
+  width: 45%; /* The width is 20%, by default */
+  background-color: transparent;
 }
 
 footer {
@@ -112,9 +137,9 @@ footer {
 	 color: white;
   overflow: hidden;
   margin-top: 50px;
-  width:100%;
+  width:97%;
   max-width: 900px;
-  min-width: 3500px;
+  min-width: 350px;
   height:auto;
   /*padding: 15px 16px;*/
   display: flex;
@@ -140,6 +165,16 @@ footer {
 	  padding: 10px;
     }
 	
+	
+@media screen and (max-width: 850px) {
+  .kontakt-wrapper {
+	  display: block;
+  }
+  .kontakt {
+	  width: 97%;
+  }
+}
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -151,7 +186,7 @@ footer {
   .topnav a.active {
     display: block;
   }
-  .content {
+  .content  {
 	  margin-left: 0%;
   }
   .topnav {
@@ -164,6 +199,9 @@ footer {
 
 @media screen and (max-width: 970px) {
   .content {
+	  margin-left: 0%;
+  }
+  .kontakt-wrapper {
 	  margin-left: 0%;
   }
   .topnav {
@@ -185,5 +223,3 @@ footer {
     text-align: left;
   }
 }
-
-
