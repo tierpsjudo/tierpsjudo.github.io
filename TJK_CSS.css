@@ -172,6 +172,7 @@ footer {
   }
   .kontakt {
 	  width: 97%;
+	  float:none;
   }
 }
 
