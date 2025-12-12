@@ -27,7 +27,7 @@ h1, h2 ,h3, h4, h5, h6{color:rgba(0, 0, 120, 0.9)} /*rgba(250,23,15,1) !importan
 .passH3 {
 	font-size:1.17em;
 	margin-top:1.5em;
-	margin-bottom:0.5em;
+	margin-bottom:0.25em;
 }
 .content {
   /*margin: auto;*/
